@@ -32,7 +32,8 @@ This project demonstrates the end-to-end process of building a data warehouse. I
 
 The core of this project is the **Medallion Architecture**, which ensures data quality and governance by moving data through distinct layers. The final `Gold` layer presents the data in a user-friendly Galaxy Schema.
 
-![ETL Architecture](docs/ETL.png)
+![Data Flow Architecture](docs/data_flow.png)
+![Data Flow Architecture](docs/data_flow_1.png)
 
 <br/>
 
@@ -276,8 +277,19 @@ Planned improvements for upcoming versions:
 
 For a deeper dive into each implementation, please refer to the documentation files in the `docs/` directory:
 
+### 📖 Project Documentation
+-   **[Complete Project Documentation](./docs/PROJECT_DOCUMENTATION.md)** - Comprehensive guide covering:
+    -   Project Planning & Methodology
+    -   Stakeholder Analysis & Requirements
+    -   Database Design & Data Modeling
+    -   UI/UX Design & Wireframes
+
+### 🔧 Technical Implementation Guides
 -   [Talend ETL Documentation](./docs/talend_documentation.md)
 -   [SQL ETL Documentation](./docs/sql_etl_documentation.md)
 -   [Python ETL Documentation](./docs/python_etl_documentation.md)
 -   [Airflow Orchestration Documentation](./docs/airflow_orchestration.md)
+
+### 📊 Data & Architecture References
+-   [System Architecture](./docs/ARCHITECTURE.md)
 -   [Meta Data Definition](./docs/meta_data_definition.md)
